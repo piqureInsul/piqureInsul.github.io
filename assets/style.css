@@ -1,0 +1,85 @@
+
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #92c9fa;
+ 
+}
+#img{
+  width: 442px;
+  height: 637px;
+    position: relative;
+
+}
+
+
+#mainDroite{
+    position: absolute;
+    width: 36px;
+    height: 150px;
+    background-color: red;
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 23%;
+    top: 33%;
+}
+
+#mainGauche{
+    position: absolute;
+    width: 36px;
+    height: 150px;
+        background-color: red;
+
+    z-index: 1;
+    transform: rotate(-45deg);
+    right: 20%;
+    top: 33%;
+   
+}
+#piedDroit{
+    position: absolute;
+    width: 51px;
+    height: 150px;
+        background-color: red;
+
+    z-index: 1;
+    top: 51%;
+    left: 38%;
+}
+#piedGauche{
+    position: absolute;
+    width: 51px;
+    height: 150px;
+        background-color: red;
+
+    z-index: 1;
+    top: 51%;
+    left: 53%;
+}
+#ventreDroit{
+    position: absolute;
+    width: 51px;
+    height: 54px;
+        background-color: red;
+
+    z-index: 1;
+    top: 42%;
+    left: 39%;
+}
+#ventreGauche{
+    position: absolute;
+    width: 51px;
+    height: 54px;
+        background-color: red;
+
+    z-index: 1;
+    top: 42%;
+    left: 52%;
+}
+.title{
+    text-align: center;
+    position: absolute;
+   left: 0;
+   right: 0;
+   top: 501px;
+}
