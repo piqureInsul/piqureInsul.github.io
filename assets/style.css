@@ -1,18 +1,17 @@
-
 body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-color: #92c9fa;
-  max-width: 442px;
+    max-width: 380px;
 }
 #img{
-  max-width: 442px;
+  max-width: 380px;
   max-height: 637px;
     position: relative;
 
 }
 img{
-    max-width: 442px;
+    max-width: 380px;
     max-height: 637px;
 }
 
