@@ -6,10 +6,14 @@ body{
  
 }
 #img{
-  width: 442px;
-  height: 637px;
+  max-width: 442px;
+  max-height: 637px;
     position: relative;
 
+}
+img{
+    max-width: 442px;
+    max-height: 637px;
 }
 
 
